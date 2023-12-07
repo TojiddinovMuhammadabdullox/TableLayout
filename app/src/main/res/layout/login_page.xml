@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:stretchColumns="1"
+    android:layout_marginStart="@dimen/marstart"
+    android:layout_marginEnd="@dimen/marstart"
+    android:layout_marginTop="@dimen/marstart"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <ImageView
+            android:src="@drawable/img"
+            android:layout_span="2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="@dimen/marstart">
+        <TextView
+            android:text="Name: "/>
+        <EditText
+            android:hint="Enter yout name"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="@dimen/marstart">
+        <TextView
+            android:text="Password: "/>
+        <EditText
+            android:hint="Enter yout password"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="@dimen/marstart">
+        <Button
+            android:layout_span="2"
+            android:text="Login"
+            />
+    </TableRow>
+</TableLayout>
